@@ -80,6 +80,7 @@ http://leettime.net/sqlninja.com/tasks/basic_ch1.php?id=null' union select 66,(s
 ```
 http://leettime.net/sqlninja.com/tasks/basic_ch3.php?id=1" and sleep(5)--+anakein
 ```
+![chall_3](https://raw.githubusercontent.com/e-anakein/leettime/master/images/photo_2019-05-24_23-28-14.jpg)
 
 #### Challenge 4 >> ')
 
